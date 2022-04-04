@@ -1,4 +1,4 @@
-# Doctor Mobile App
+# Carousel Example App
 ## Introduce
 
 React Native IOS and Android Mobile App
@@ -21,12 +21,12 @@ React Native IOS and Android Mobile App
 
 ## Run project
 
-Doctor requires all environment to run.
+Carousel requires all environment to run.
 
 Clone source code from repo
 
 ```sh
-git clone https://bitbucket.org/huydt1412/leber-doctor-app/src
+git clone https://github.com/princetoad1995/carousel_example
 ```
 
 Install node_modules.
@@ -54,6 +54,12 @@ Build project on iOS
 npx react-native run-ios
 ```
 
+Run storybook
+
+```sh
+set LOAD_STORYBOOK=true in .env file
+```
+
 ## IDE
 
 Tools for development application
@@ -66,7 +72,7 @@ Tools for development application
 
 ## Structure
 
-Doctor mobile app structure in folder src:
+Carousel mobile app structure in folder src:
 
 - [components] - includes global components of the project.
 - [contexts] - includes context api.
